@@ -1,0 +1,49 @@
+:root
+{
+    --mainColor:#CDC2AE;
+    --secondColor:#dafaf8;
+    --navColor:#116A7B;
+}
+
+.all-product
+{
+    height: 55vh;
+    box-shadow: 4px 4px 6px var(--secondColor) ;
+}
+.body
+{
+    background-color: var(--mainColor);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar
+{
+    background-color: var(--secondColor);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.navbar i, .navbar a
+{
+    color: var(--navColor);
+}
+.store-info h1
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: var(--navColor);
+}
+.store-info p
+{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.store-icon i
+{
+    color: var(--navColor);
+}
+.btn
+{
+    color: #fff;
+    background-color: var(--navColor);
+    border: none;
+}

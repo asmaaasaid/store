@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&family=Dancing+Script&family=Domine&family=Hanken+Grotesk&family=Inter:wght@300&family=Lato&family=Montserrat:wght@500;600&family=Open+Sans&family=Oswald&family=Outfit&family=Playfair+Display:wght@400;500&family=Poppins:ital,wght@0,300;0,600;1,300&family=Roboto+Slab&family=Roboto:wght@400;500&family=Titillium+Web:wght@600&family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-6/css/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href= "CSS/style.css">
+    <title>STORE</title>
+</head>
+<body class="body">
+   
+    
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <i class="fa-solid fa-shop fs-2 me-2"></i>
+          <a class="navbar-brand text-uppercase fs-3 fw-bold" href="#">the store </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a onclick=" getProduct() " class="nav-link text-capitalize fs-5"  href="#"  aria-current="page">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize fs-5" id="navToAbout" onclick=" navigateAbout()" href="#" >about us</a>
+              </li>
+              <li class="nav-item">
+                <a onclick=" getAllProduct()" class="nav-link text-capitalize fs-5" href="#">all product</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-capitalize fs-5 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  category
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">electronics</a></li>
+                  <li><a class="dropdown-item" href="#">jewelery</a></li>
+                  <li><a class="dropdown-item" href="#">men's clothing</a></li>
+                  <li><a class="dropdown-item" href="#">women's clothing</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+            
+          </div>
+        </div>
+      </nav> 
+    <!-- get all product -->
+    <section class="container py-5">
+        
+        <div class="row mt-5 " id="rowData">
+            <!-- <div class="col-lg-2">
+                <div class="all-product">
+                    <img src="" alt="product picture">
+                    <h5></h5>
+                    <h6></h6>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
